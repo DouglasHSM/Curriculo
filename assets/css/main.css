@@ -1,0 +1,66 @@
+*{
+    outline: 1px dotted var(--primeira--color);
+}
+:root {
+    --primeira--color:#F2C84B;
+    --segunda--color:#038C73;
+    --terceira--color:#042959;
+    --quarta--color:#023373;
+    --quinta--color:#033E8C;
+
+    /* Tamanhos padroens */
+    --extra-small-size: 4px;
+    --small-size:8px;
+    --medium-size:16px;
+    --large-size: 32px;
+    --extra-large-size: 64px;
+}
+
+.header{
+    background: rgb(3,62,140);
+    background: linear-gradient(130deg, var(--terceira--color) 22%, var(-quinta--color) 73%);
+}
+
+.header_title{
+    color: #F2C84B;
+}
+
+.header_social-icons{
+    color: var(--segunda--color);
+}
+
+.skills{}
+
+.skills__left-colum{
+    background: var(--quarta--color);
+}
+.skills__title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--segunda--color);
+}
+.skills__descriptiom{
+     font-size: 0.8rem;
+     color: var(--quinta--color);
+     margin: 0;
+     padding: 0;
+}
+
+.skills__descriptiom :hover{
+
+    transition: all 1s;
+    margin-left: var(--primeira--color);
+    cursor: pointer;
+    background: var(--segunda--color);
+    border-radius: var(--segunda--color);
+    padding: var(--quinta--color);
+}
+
+.skills_divider {
+    width: 100%;
+    height: 1px;
+    background: var(--primeira--color);
+    opacity: 0.3
+    margin-top:  var(--quinta--color);
+    margin-battom:var(--quinta--color);
+}
